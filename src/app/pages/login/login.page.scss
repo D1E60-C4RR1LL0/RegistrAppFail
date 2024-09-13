@@ -1,0 +1,57 @@
+.app-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+  }
+  
+  .login-title {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .forgot-password {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #0067b8; /* Color azul similar */
+    text-decoration: none;
+  }
+
+  /* Contenedor para alinear el botón a la derecha */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+    --background: #0067b8; /* Color azul similar */
+    --border-radius: 4px;
+  }
+  
+  .signin-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signin-options ion-icon {
+    margin-right: 10px;
+  }
+  
+  .signin-options span {
+    color: #0067b8;
+  }
+  
